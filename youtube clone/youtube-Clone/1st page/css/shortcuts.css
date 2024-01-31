@@ -1,0 +1,32 @@
+#shortcut{
+    position:fixed;
+    top: 57px;
+    left: 70px;
+    right: 0px;
+    height: 58px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 18px;
+    background-color: white;
+    z-index: 100;
+
+}
+.btn-cuts{
+    height: 33px;
+    padding-inline: 15px;
+    margin-inline: 7px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    white-space: normal;
+    display: inline-block;
+    padding-inline: 14px;
+    padding-top: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-cuts:hover{
+    background-color: rgb(198, 194, 194);
+}

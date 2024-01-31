@@ -1,0 +1,38 @@
+#sider{
+    background-color: white;
+    position: fixed;
+    top: 58px;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 70px;
+    z-index: 100;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75px;
+    width: 70px;
+    border-radius: 8px;
+    font-size: 10px;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgba(231, 230, 230, 0.71);
+}
+.btn-img{
+    height: 42%;
+    width: 42%;
+    margin: 2px;
+}
+#btn-sub{
+    height: 60%;
+    width: 100%;
+    margin: -8px;
+}

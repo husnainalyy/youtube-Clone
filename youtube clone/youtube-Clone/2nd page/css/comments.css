@@ -1,0 +1,202 @@
+#comments {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    height: 90px;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+
+#comment-info {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 24px;
+
+}
+
+#cmntnumb {
+    margin-top: 4px;
+    margin-right: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#sort {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    padding: 0px;
+    border-radius: 25px;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+#sort:hover {
+    background-color: rgb(224, 223, 223);
+}
+
+#imgsort {
+    object-fit: center;
+    width: 100%;
+}
+
+#sortby {
+    margin-top: 4px;
+    margin-right: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#comment-done {
+    height: 71px;
+    display: flex;
+}
+
+#yourdp {
+    height: 71px;
+    width: 57px;
+
+}
+
+#dpbtn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+}
+
+#dpimg {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+#add-comment {
+    height: 23.5px;
+    padding-bottom: 8px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#inputcmnt {
+    height: 40px;
+    width: 680px;
+    border: none;
+    border-bottom: 1px solid rgba(56, 54, 54, 0.495);
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#inputcmnt:focus{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+#comments-users{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+
+}
+#user-dp-div{
+    width:37px;
+    margin-right: 15px;
+}
+#user-dp-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+
+}
+
+#userimg{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+#username{
+    margin-bottom: 8px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#user-cmnt{
+    line-height: 18px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+#lbl1{
+    font-weight: bolder;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+#user-reaction{
+    display: flex;
+    justify-content: start;
+    align-items: center ;
+    margin-top: 10px;
+}
+#likebutton{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+#likebutton:hover {
+    background-color: rgb(203, 201, 201);
+}
+#likebuttonimg {
+    object-fit: fill ;
+    width: 90%;
+    height: 100%;
+    border-radius:50% ;
+    padding: 0px;
+    margin: 0px;
+
+}
+#dislikebutton{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#dislikebutton:hover {
+    background-color: rgb(203, 201, 201);
+}
+#dislikebuttonimg {
+    object-fit: fill;
+    width: 90%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0px;
+
+}
+#replybutton{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#replybutton:hover {
+    background-color: rgb(203, 201, 201);
+}
+

@@ -1,0 +1,140 @@
+
+/* 2nd portion of 2nd box right box which has
+ recomended videos */
+
+#right2 {
+    width: 31.6540841682098%;
+    height: 100%;
+    margin-top:26px ;
+    display: inline-block;
+    flex-direction: row;
+    
+}
+
+/* ----------right side-------- */
+/* upper portion */
+#shortcutss {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    padding: 3px;
+    padding-left: 0px;
+    margin-left: 0px;
+    background-color: white;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+
+}
+#shortcutss::-webkit-scrollbar {
+    /* Chrome, Safari and Opera */
+    display: none;
+}
+
+.btn-cuts {
+    height: 33px;
+    padding-inline: 15px;
+    margin-inline: 7px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    white-space: normal;
+    display: inline-block;
+    padding-inline: 14px;
+    padding-top: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.btn-cuts:hover {
+    background-color: rgb(198, 194, 194);
+}
+@media (max-width:700px) {
+    #right2 {
+        width: 100%;
+        
+    }
+    #recomend-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #shortcutss{
+        width: 787px;
+    }
+}
+@media (min-width: 770px) {
+    #video {
+        width: 1260px;
+    }
+}
+
+/* ---------recomended videos */
+#recomended-video{
+    display: flex;
+    width:  398px;
+    height: 93px;
+    margin-top: 10px;
+    
+
+}
+
+#rec-video-div{
+    width: 185px;
+    height: 93px;
+    position: relative;
+}
+#rec-video{
+    object-fit: fill;
+    width: 165px;
+    height: 100%;
+    border-radius: 8px;
+    
+}
+#tmm {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    right: 5px;
+    bottom: 4px;
+    padding-inline: 5px;
+    border-radius: 4px;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+#rec-video-info-div{
+    margin-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+#rec-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+#rec-channel{
+    margin-top: 8px;
+    font-size: 12px;
+    color: rgba(116, 114, 114, 0.906);
+}
+#rec-vt-div{
+    margin-top: 6px;
+    font-size: 12px;
+    color: rgba(116, 114, 114, 0.906);
+    display: flex;
+        
+}
+
+
+
+
+

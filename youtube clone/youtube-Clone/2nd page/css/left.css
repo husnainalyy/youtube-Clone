@@ -1,0 +1,246 @@
+#left2{
+    display: flex;
+    flex-direction: column;
+    width: 735px;
+    padding-top: 12px;
+    padding-right:30px;
+    padding-left: 24px;
+
+}
+
+
+
+#title{
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 27px;
+    /* background-color: aqua; */
+}
+
+/* account information */
+
+#account-info{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(137, 92, 36); */
+    height: 54.667px;
+    justify-content: space-between;
+    
+}
+
+/* ----channel info left side */
+#channel-infor-div{
+    display:flex;
+    width: 40%;
+    height: 84%;
+    padding: 0px;
+    margin-top: 9px;
+    margin-right: 9px;
+
+}
+
+#channel-dp-div{
+    width: 180px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: start;
+}
+
+#channel-dp-btn{
+    width: 50px;
+    height: 45.667px;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+
+}
+#channel-dp-img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 12px;
+    margin-top: 0px;
+}
+
+#name-div{
+    font-family: 'Roboto', "Arial", sans-serif; 
+    line-height: 20px;
+    width: 113px;
+    height: 45.667px;
+    margin-top: 4px;
+    margin-right: 12px;
+    display: inline-block;
+}
+#channel-name{
+    font-weight: bold;
+    font-size: medium;
+}
+#channel-subscribers{
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(100, 99, 99);
+}
+
+#subscribe-button-div{
+    width: 130px;
+    height: 91%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: start;
+    padding-top: 4px;
+}
+#subscribe{
+    color: white;
+    background-color: #040404;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 8em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+/* --------right sides of like dislike */
+#play-video-info{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    margin-top: 9px;
+}
+
+#likebtn{
+    display: flex;
+    justify-content: end;
+    padding-top: 6px;    
+}
+#frst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 39.5px;
+    margin-right: 0px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border: 1px solid rgb(224, 224, 224);
+    flex-shrink: 1;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#frst:hover{
+    background-color: rgb(224, 223, 223);
+}
+#frstimg{
+    object-fit: contain;
+    width: 30%;
+    padding-bottom: 5px;
+}
+#scnd {
+    width: 45px;
+    height: 39.5px;
+    margin-left: -1px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: 1px solid #cac4c4;
+    margin-right: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#scnd:hover {
+    background-color: rgb(224, 223, 223);
+}
+#scndimg {
+    object-fit: contain;
+    width: 80%;
+}
+#trd {
+    width: 90px;
+    height: 39.5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    align-items: center;
+    margin-right: 11px;
+    cursor: pointer;
+}
+#trd:hover {
+    background-color: rgb(224, 223, 223);
+}
+
+#trdimg {
+    object-fit: contain;
+    width: 30%;
+}
+#frth {
+    width: 40px;
+    height: 39.5px;
+    border: none;
+    border-radius: 25px;
+    align-items: center;
+    cursor: pointer;
+
+}
+#frth:hover {
+    background-color: rgb(224, 223, 223);
+}
+#frthimg {
+    object-fit: contain;
+    width: 100%;
+    padding-top: 2px;
+}
+
+
+#description{
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(235, 233, 233);
+    padding-bottom: 10px;
+    height: 90px;
+    border-radius:10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+    font-size: small;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    white-space: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,160 @@
+/* header  */
+#header{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 57px;
+    z-index: 100;
+    margin: 0px;
+}
+
+/* -----left----- */
+
+#left{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-right: 3px;
+}
+#ham-left{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    margin-inline: 4%;
+}
+#ham-left:hover {
+    background-color: rgb(179, 178, 178);
+}
+#hamburger{
+    width: 100%;
+    height: 100%;    
+}
+#logo{
+    width: 90px;
+    object-fit: cover;
+
+}
+
+/* ------middle------ */
+
+
+#middle{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#search{
+    width: 64%;
+    height: 36px;
+    margin-right: 0px;
+    padding-left: 17px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color:white;
+    border: 1px solid rgb(202, 196, 196);
+    flex-shrink: 1;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+#search:hover ,
+#search:active,
+#search:focus{
+    border: 1px solid rgb(57, 177, 218);
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset 0.5px 0.5px 5px 0.5px rgba(0, 0, 0, 0.232);
+}
+#search-icon{
+    width: 40px;
+    height: 39.5px;
+    margin-left: -1px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: 1px solid rgb(202, 196, 196);
+    margin-right: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#search-icon:hover {
+    background-color: rgb(179, 178, 178);
+}
+#simg{
+    object-fit: contain;
+    width: 30px;
+    width: 30px;
+       
+    
+}
+#microphone{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    align-items: center;
+    cursor: pointer;
+}
+#microphone:hover {
+    background-color: rgb(179, 178, 178);
+}
+#mimg {
+    object-fit: contain;
+    width: 20px;
+    height: 20px;
+}
+
+/* -------right side----- */
+
+
+#right{
+    
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end   ;
+}
+
+.right-btns{
+    width: 37px;
+    height: 37px;
+    padding: 0px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+.right-btns:hover {
+    background-color: rgb(179, 178, 178);
+}
+.btn-imgs{
+    width: 65%;
+    height: 65%;
+    margin-top: 5px;
+    border-radius: 50%;
+    object-position: center;
+}
+
+#noti-right{
+    margin-inline: 19px;
+}
+
+#account-right{
+    margin-right: 35px;
+}
+
+

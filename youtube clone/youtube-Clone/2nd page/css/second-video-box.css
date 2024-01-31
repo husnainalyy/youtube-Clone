@@ -1,0 +1,29 @@
+/* the second box which contain the bottom portion 
+which has two sides one is the comment and video info 
+other has recomend portion */
+
+#second {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+/* @media (min-width:300px) {
+    #second{
+        grid-template-columns: 1fr;
+    } 
+    
+}*/
+@media (max-width:730px) {
+    #second {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+    #right2{
+        width: 100%;
+    }
+}
+
